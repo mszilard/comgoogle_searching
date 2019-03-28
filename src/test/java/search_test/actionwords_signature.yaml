@@ -1,0 +1,16 @@
+---
+- name: I open "url"
+  uid: 9a0bbf07-b159-4e35-9d49-09336af0b4a1
+  parameters:
+  - name: url
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I search for "vga"
+  uid: 6640fd63-e66b-49da-add8-a5e14af8bfbf
+  parameters:
+  - name: vga
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a link to "store_link" is shown in the results
+  uid: 701b884b-880a-4688-a893-161d0c53ba20
+  parameters:
+  - name: store_link
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
